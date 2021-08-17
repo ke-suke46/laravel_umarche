@@ -3,6 +3,8 @@
     if($name === 'image2'){ $modal = 'modal-2'; }
     if($name === 'image3'){ $modal = 'modal-3'; }
     if($name === 'image4'){ $modal = 'modal-4'; }
+    if($name === 'image5'){ $modal = 'modal-5'; }
+
 @endphp
 
 <div class="modal micromodal-slide" id="{{ $modal }}" aria-hidden="true">
@@ -28,7 +30,7 @@
                     </div>
                     </div>
                 @endforeach
-                </div>
+            </div>
         </main>
         <footer class="modal__footer">
           <button type="button" class="modal__btn" data-micromodal-close aria-label="閉じる">閉じる</button>
