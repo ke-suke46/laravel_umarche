@@ -229,4 +229,6 @@ class ProductController extends Controller
         ->route('owner.products.index')
         ->with(['message' => '商品をを削除しました。', 'status' => 'alert']);
     }
+
+    
 }
